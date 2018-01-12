@@ -9,6 +9,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
+@SuppressWarnings({"unused", "serial"})
+
 //Main class with JFrame and ActionListener enabled
 public class Calculator extends JFrame implements ActionListener {
 
