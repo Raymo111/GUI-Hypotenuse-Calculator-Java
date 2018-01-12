@@ -1,7 +1,7 @@
 /*
  * Author: Raymond Li
  * Date: 2017-12-24
- * Description: Summative 
+ * Description: Allows entry of legs of a right triangle and calculates its hypotenuse via a GUI
  */
 
 //Import java GUI classes
@@ -10,7 +10,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 //Main class with JFrame and ActionListener enabled
-public class E18_Hypotenuse_Calculator_GUI extends JFrame implements ActionListener {
+public class Calculator extends JFrame implements ActionListener {
 
 	//Add JPanels, 'panel' used to hold everything for box layout
 	JPanel panel = new JPanel();
@@ -31,7 +31,7 @@ public class E18_Hypotenuse_Calculator_GUI extends JFrame implements ActionListe
 	JLabel hypotenuseLabel = new JLabel("Hypotenuse: ", JLabel.TRAILING);
 
 	//Constructor
-	public E18_Hypotenuse_Calculator_GUI() {
+	public Calculator() {
 
 		//Set title, size, and location of GUI window
 		setTitle("Hypotenuse Calculator");
@@ -86,7 +86,7 @@ public class E18_Hypotenuse_Calculator_GUI extends JFrame implements ActionListe
 	public static void main(String[] args) {
 
 		//Creates GUI (Note: It is not needed to assign the GUI to a particular variable, as long as it is created.)
-		new E18_Hypotenuse_Calculator_GUI();
+		new Calculator();
 
 	}
 
